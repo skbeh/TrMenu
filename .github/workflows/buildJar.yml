@@ -11,6 +11,7 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: 14
+          distribution: 'temurin'
       - name: Cache .gradle/caches
         uses: actions/cache@v2
         with:
